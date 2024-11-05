@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f66b902-a726-4128-a4dc-288346ffcffb" name="Changes" comment="Implement word count functionality with formatted output">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/practicals programing 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/prac 5" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kiran12750&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kiran12750/cp1404practicals&quot;,
+    &quot;accountId&quot;: &quot;32cc0415-a422-4717-8303-8e2f8370b3c5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2oErURputYJ2QxabVGLO8XW9a9z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/kiran/PycharmProjects/practicals programing 2/prac 5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f66b902-a726-4128-a4dc-288346ffcffb" name="Changes" comment="" />
+      <created>1730445591765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730445591765</updated>
+      <workItem from="1730445592836" duration="38000" />
+      <workItem from="1730445640326" duration="164000" />
+      <workItem from="1730445818843" duration="9000" />
+      <workItem from="1730445838267" duration="6000" />
+      <workItem from="1730445855158" duration="10000" />
+      <workItem from="1730445874902" duration="7000" />
+      <workItem from="1730445895020" duration="7000" />
+      <workItem from="1730445936643" duration="77000" />
+      <workItem from="1730446029565" duration="1709000" />
+      <workItem from="1730685523225" duration="2349000" />
+    </task>
+    <task id="LOCAL-00001" summary="- Created a main function to store emails and associated names.&#10;- Added input prompts for email and name confirmation.&#10;- Included a helper function to extract and format names from email addresses.&#10;- Displayed stored emails and names at the end of execution.">
+      <option name="closed" value="true" />
+      <created>1730446226692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730446226692</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Implemented a dictionary of color names with their corresponding hexadecimal codes.&#10;- Created a main function to prompt users for color names and display the associated hex codes.&#10;- Included error handling for unrecognized color names.&#10;- Allowed users to exit the program by pressing Enter without input.">
+      <option name="closed" value="true" />
+      <created>1730446292212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730446292212</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Created a dictionary mapping state codes to their full names.&#10;- Enabled user input for state codes, allowing case-insensitive entry.&#10;- Added validation to check for valid state codes and provide feedback.&#10;- Displayed a list of all states and their corresponding names at the end.">
+      <option name="closed" value="true" />
+      <created>1730446355729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730446355729</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Implemented CSV reading to extract Wimbledon champion data.&#10;- Created functions to count wins for each champion and retrieve unique countries.&#10;- Displayed sorted lists of champions with their win counts.&#10;- Listed unique countries that have won Wimbledon.&#10;- Ensured proper handling of CSV file encoding.">
+      <option name="closed" value="true" />
+      <created>1730446408086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730446408086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Created a basic Kivy app to demonstrate interactive functionality.&#10;- Added buttons dynamically for a list of names and handled their press events.&#10;- Implemented a counter with up/down button functionality to update status text.&#10;- Utilized Kivy's StringProperty for dynamic updates in the UI.&#10;- Set up initial app title and layout using a KV file.">
+      <option name="closed" value="true" />
+      <created>1730446501376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730446501376</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Defined the layout and widget structure for the Kivy app using KV language.&#10;- Configured a vertical BoxLayout containing a Label and two buttons for counter control.&#10;- Set up a horizontal BoxLayout for the Up and Down buttons to modify the counter.&#10;- Included an id for the names_box to allow dynamic addition of name buttons from the Python code.">
+      <option name="closed" value="true" />
+      <created>1730446543724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730446543724</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- Added a function to count occurrences of each word in a user-provided string.&#10;- Utilized a dictionary for counting and sorted the results alphabetically.&#10;- Formatted output for aligned display based on the longest word.&#10;- Included user input handling and case normalization.">
+      <option name="closed" value="true" />
+      <created>1730446652260</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730446652260</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add email and name storage functionality">
+      <option name="closed" value="true" />
+      <created>1730485756383</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730485756383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix color lookup and enhance user input handling">
+      <option name="closed" value="true" />
+      <created>1730485841238</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730485841238</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add interactive buttons and counter functionality in Kivy app">
+      <option name="closed" value="true" />
+      <created>1730485925173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730485925173</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Define UI layout in Kv file for Kivy app">
+      <option name="closed" value="true" />
+      <created>1730485993899</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730485993899</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implement state code lookup and input validation">
+      <option name="closed" value="true" />
+      <created>1730486040033</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730486040033</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add Wimbledon champions data processing">
+      <option name="closed" value="true" />
+      <created>1730486092948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730486092948</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implement word count functionality with formatted output">
+      <option name="closed" value="true" />
+      <created>1730486154723</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730486154723</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Created a main function to store emails and associated names.&#10;- Added input prompts for email and name confirmation.&#10;- Included a helper function to extract and format names from email addresses.&#10;- Displayed stored emails and names at the end of execution." />
+    <MESSAGE value="- Implemented a dictionary of color names with their corresponding hexadecimal codes.&#10;- Created a main function to prompt users for color names and display the associated hex codes.&#10;- Included error handling for unrecognized color names.&#10;- Allowed users to exit the program by pressing Enter without input." />
+    <MESSAGE value="- Created a dictionary mapping state codes to their full names.&#10;- Enabled user input for state codes, allowing case-insensitive entry.&#10;- Added validation to check for valid state codes and provide feedback.&#10;- Displayed a list of all states and their corresponding names at the end." />
+    <MESSAGE value="- Implemented CSV reading to extract Wimbledon champion data.&#10;- Created functions to count wins for each champion and retrieve unique countries.&#10;- Displayed sorted lists of champions with their win counts.&#10;- Listed unique countries that have won Wimbledon.&#10;- Ensured proper handling of CSV file encoding." />
+    <MESSAGE value="- Created a basic Kivy app to demonstrate interactive functionality.&#10;- Added buttons dynamically for a list of names and handled their press events.&#10;- Implemented a counter with up/down button functionality to update status text.&#10;- Utilized Kivy's StringProperty for dynamic updates in the UI.&#10;- Set up initial app title and layout using a KV file." />
+    <MESSAGE value="- Defined the layout and widget structure for the Kivy app using KV language.&#10;- Configured a vertical BoxLayout containing a Label and two buttons for counter control.&#10;- Set up a horizontal BoxLayout for the Up and Down buttons to modify the counter.&#10;- Included an id for the names_box to allow dynamic addition of name buttons from the Python code." />
+    <MESSAGE value="- Added a function to count occurrences of each word in a user-provided string.&#10;- Utilized a dictionary for counting and sorted the results alphabetically.&#10;- Formatted output for aligned display based on the longest word.&#10;- Included user input handling and case normalization." />
+    <MESSAGE value="Add email and name storage functionality" />
+    <MESSAGE value="Fix color lookup and enhance user input handling" />
+    <MESSAGE value="Add interactive buttons and counter functionality in Kivy app" />
+    <MESSAGE value="Define UI layout in Kv file for Kivy app" />
+    <MESSAGE value="Implement state code lookup and input validation" />
+    <MESSAGE value="Add Wimbledon champions data processing" />
+    <MESSAGE value="Implement word count functionality with formatted output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement word count functionality with formatted output" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prac 5/emails.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
