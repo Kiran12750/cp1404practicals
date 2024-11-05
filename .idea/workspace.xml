@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f66b902-a726-4128-a4dc-288346ffcffb" name="Changes" comment="Implement word count functionality with formatted output">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/practicals programing 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +92,7 @@
       <workItem from="1730445895020" duration="7000" />
       <workItem from="1730445936643" duration="77000" />
       <workItem from="1730446029565" duration="1709000" />
-      <workItem from="1730685523225" duration="2349000" />
+      <workItem from="1730685523225" duration="6125000" />
     </task>
     <task id="LOCAL-00001" summary="- Created a main function to store emails and associated names.&#10;- Added input prompts for email and name confirmation.&#10;- Included a helper function to extract and format names from email addresses.&#10;- Displayed stored emails and names at the end of execution.">
       <option name="closed" value="true" />
