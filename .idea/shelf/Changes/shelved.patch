@@ -1,0 +1,383 @@
+Index: prac 5/kivy_demo.py
+===================================================================
+diff --git a/prac 5/kivy_demo.py b/prac 5/kivy_demo.py
+deleted file mode 100644
+--- a/prac 5/kivy_demo.py	(revision faf6fdd333ffd1bfdbd89247b82eb2693742a669)
++++ /dev/null	(revision faf6fdd333ffd1bfdbd89247b82eb2693742a669)
+@@ -1,38 +0,0 @@
+-from kivy.app import App
+-from kivy.lang import Builder
+-from kivy.properties import StringProperty
+-from kivy.uix.button import Button
+-
+-
+-class KivyDemo(App):
+-    """Kivy program to demo some basic interactive functionality."""
+-    status_text = StringProperty("Hello. Click the buttons :)")
+-
+-    def __init__(self, **kwargs):
+-        """Construct main Kivy app."""
+-        super().__init__(**kwargs)
+-        self.counter = 0
+-        self.names = ["Lindsay", "Osmond", "Paul"]
+-
+-    def build(self):
+-        """Construct the dynamic widgets."""
+-        self.title = "Hello world!"
+-        self.root = Builder.load_file('kivy_layout.kv')
+-        for name in self.names:
+-            button = Button(text=name)
+-            button.bind(on_press=self.handle_name_button)
+-            self.root.ids.names_box.add_widget(button)
+-        return self.root
+-
+-    def handle_name_button(self, instance):
+-        """Handle presses on the name button to greet people."""
+-        print("Hello", instance.text)
+-
+-    def handle_press(self, amount):
+-        """Handle presses on the up/down buttons to change counter."""
+-        self.counter += amount
+-        self.status_text = f"The count is: {self.counter}"
+-
+-
+-# Create an instance of the KivyDemo class and start the App running
+-KivyDemo().run()
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1730445617165)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1730445617165)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1730445617065)
++++ b/.idea/modules.xml	(date 1730445617065)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/practicals programing 2.iml" filepath="$PROJECT_DIR$/.idea/practicals programing 2.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1730484448820)
++++ b/.idea/workspace.xml	(date 1730484448820)
+@@ -0,0 +1,168 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="1f66b902-a726-4128-a4dc-288346ffcffb" name="Changes" comment="- Added a function to count occurrences of each word in a user-provided string.&#10;- Utilized a dictionary for counting and sorted the results alphabetically.&#10;- Formatted output for aligned display based on the longest word.&#10;- Included user input handling and case normalization.">
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/practicals programing 2.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/prac 5/wimbledon.csv" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/prac 5/kivy_demo.py" beforeDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "Kiran12750"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/Kiran12750/cp1404practicals",
++    "accountId": "32cc0415-a422-4717-8303-8e2f8370b3c5"
++  }
++}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 1
++}</component>
++  <component name="ProjectId" id="2oErURputYJ2QxabVGLO8XW9a9z" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "prac__05__feedback",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
++  }
++}]]></component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
++        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="1f66b902-a726-4128-a4dc-288346ffcffb" name="Changes" comment="" />
++      <created>1730445591765</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1730445591765</updated>
++      <workItem from="1730445592836" duration="38000" />
++      <workItem from="1730445640326" duration="164000" />
++      <workItem from="1730445818843" duration="9000" />
++      <workItem from="1730445838267" duration="6000" />
++      <workItem from="1730445855158" duration="10000" />
++      <workItem from="1730445874902" duration="7000" />
++      <workItem from="1730445895020" duration="7000" />
++      <workItem from="1730445936643" duration="77000" />
++      <workItem from="1730446029565" duration="1709000" />
++    </task>
++    <task id="LOCAL-00001" summary="- Created a main function to store emails and associated names.&#10;- Added input prompts for email and name confirmation.&#10;- Included a helper function to extract and format names from email addresses.&#10;- Displayed stored emails and names at the end of execution.">
++      <option name="closed" value="true" />
++      <created>1730446226692</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1730446226692</updated>
++    </task>
++    <task id="LOCAL-00002" summary="- Implemented a dictionary of color names with their corresponding hexadecimal codes.&#10;- Created a main function to prompt users for color names and display the associated hex codes.&#10;- Included error handling for unrecognized color names.&#10;- Allowed users to exit the program by pressing Enter without input.">
++      <option name="closed" value="true" />
++      <created>1730446292212</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1730446292212</updated>
++    </task>
++    <task id="LOCAL-00003" summary="- Created a dictionary mapping state codes to their full names.&#10;- Enabled user input for state codes, allowing case-insensitive entry.&#10;- Added validation to check for valid state codes and provide feedback.&#10;- Displayed a list of all states and their corresponding names at the end.">
++      <option name="closed" value="true" />
++      <created>1730446355729</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1730446355729</updated>
++    </task>
++    <task id="LOCAL-00004" summary="- Implemented CSV reading to extract Wimbledon champion data.&#10;- Created functions to count wins for each champion and retrieve unique countries.&#10;- Displayed sorted lists of champions with their win counts.&#10;- Listed unique countries that have won Wimbledon.&#10;- Ensured proper handling of CSV file encoding.">
++      <option name="closed" value="true" />
++      <created>1730446408086</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1730446408086</updated>
++    </task>
++    <task id="LOCAL-00005" summary="- Created a basic Kivy app to demonstrate interactive functionality.&#10;- Added buttons dynamically for a list of names and handled their press events.&#10;- Implemented a counter with up/down button functionality to update status text.&#10;- Utilized Kivy's StringProperty for dynamic updates in the UI.&#10;- Set up initial app title and layout using a KV file.">
++      <option name="closed" value="true" />
++      <created>1730446501376</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1730446501376</updated>
++    </task>
++    <task id="LOCAL-00006" summary="- Defined the layout and widget structure for the Kivy app using KV language.&#10;- Configured a vertical BoxLayout containing a Label and two buttons for counter control.&#10;- Set up a horizontal BoxLayout for the Up and Down buttons to modify the counter.&#10;- Included an id for the names_box to allow dynamic addition of name buttons from the Python code.">
++      <option name="closed" value="true" />
++      <created>1730446543724</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1730446543724</updated>
++    </task>
++    <task id="LOCAL-00007" summary="- Added a function to count occurrences of each word in a user-provided string.&#10;- Utilized a dictionary for counting and sorted the results alphabetically.&#10;- Formatted output for aligned display based on the longest word.&#10;- Included user input handling and case normalization.">
++      <option name="closed" value="true" />
++      <created>1730446652260</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1730446652260</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="- Created a main function to store emails and associated names.&#10;- Added input prompts for email and name confirmation.&#10;- Included a helper function to extract and format names from email addresses.&#10;- Displayed stored emails and names at the end of execution." />
++    <MESSAGE value="- Implemented a dictionary of color names with their corresponding hexadecimal codes.&#10;- Created a main function to prompt users for color names and display the associated hex codes.&#10;- Included error handling for unrecognized color names.&#10;- Allowed users to exit the program by pressing Enter without input." />
++    <MESSAGE value="- Created a dictionary mapping state codes to their full names.&#10;- Enabled user input for state codes, allowing case-insensitive entry.&#10;- Added validation to check for valid state codes and provide feedback.&#10;- Displayed a list of all states and their corresponding names at the end." />
++    <MESSAGE value="- Implemented CSV reading to extract Wimbledon champion data.&#10;- Created functions to count wins for each champion and retrieve unique countries.&#10;- Displayed sorted lists of champions with their win counts.&#10;- Listed unique countries that have won Wimbledon.&#10;- Ensured proper handling of CSV file encoding." />
++    <MESSAGE value="- Created a basic Kivy app to demonstrate interactive functionality.&#10;- Added buttons dynamically for a list of names and handled their press events.&#10;- Implemented a counter with up/down button functionality to update status text.&#10;- Utilized Kivy's StringProperty for dynamic updates in the UI.&#10;- Set up initial app title and layout using a KV file." />
++    <MESSAGE value="- Defined the layout and widget structure for the Kivy app using KV language.&#10;- Configured a vertical BoxLayout containing a Label and two buttons for counter control.&#10;- Set up a horizontal BoxLayout for the Up and Down buttons to modify the counter.&#10;- Included an id for the names_box to allow dynamic addition of name buttons from the Python code." />
++    <MESSAGE value="- Added a function to count occurrences of each word in a user-provided string.&#10;- Utilized a dictionary for counting and sorted the results alphabetically.&#10;- Formatted output for aligned display based on the longest word.&#10;- Included user input handling and case normalization." />
++    <option name="LAST_COMMIT_MESSAGE" value="- Added a function to count occurrences of each word in a user-provided string.&#10;- Utilized a dictionary for counting and sorted the results alphabetically.&#10;- Formatted output for aligned display based on the longest word.&#10;- Included user input handling and case normalization." />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1730445721473)
++++ b/.idea/misc.xml	(date 1730445721473)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.11 (practicals programing 2)" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (practicals programing 2)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1730445617184)
++++ b/.idea/vcs.xml	(date 1730445617184)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: prac 5/wimbledon.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/prac 5/wimbledon.csv b/prac 5/wimbledon.csv
+new file mode 100644
+--- /dev/null	(date 1730446013857)
++++ b/prac 5/wimbledon.csv	(date 1730446013857)
+@@ -0,0 +1,55 @@
++Year,Country,Champion,Country,Runner-up,Score in the final
++1968,AUS,Rod Laver,AUS,Tony Roche,"6–3, 6–4, 6–2"
++1969,AUS,Rod Laver,AUS,John Newcombe,"6–4, 5–7, 6–4, 6–4"
++1970,AUS,John Newcombe,AUS,Ken Rosewall,"5–7, 6–3, 6–2, 3–6, 6–1"
++1971,AUS,John Newcombe,USA,Stan Smith,"6–3, 5–7, 2–6, 6–4, 6–4"
++1972,USA,Stan Smith,ROM,Ilie Năstase,"4–6, 6–3, 6–3, 4–6, 7–5"
++1973,TCH,Jan Kodeš,URS,Alex Metreveli,"6–1, 9–8(7–5), 6–3"
++1974,USA,Jimmy Connors,AUS,Ken Rosewall,"6–1, 6–1, 6–4"
++1975,USA,Arthur Ashe,USA,Jimmy Connors,"6–1, 6–1, 5–7, 6–4"
++1976,SWE,Björn Borg,ROM,Ilie Năstase,"6–4, 6–2, 9–7"
++1977,SWE,Björn Borg,USA,Jimmy Connors,"3–6, 6–2, 6–1, 5–7, 6–4"
++1978,SWE,Björn Borg,USA,Jimmy Connors,"6–2, 6–2, 6–3"
++1979,SWE,Björn Borg,USA,Roscoe Tanner,"6–7(4–7), 6–1, 3–6, 6–3, 6–4"
++1980,SWE,Björn Borg,USA,John McEnroe,"1–6, 7–5, 6–3, 6–7(16–18), 8–6"
++1981,USA,John McEnroe,SWE,Björn Borg,"4–6, 7–6(7–1), 7–6(7–4), 6–4"
++1982,USA,Jimmy Connors,USA,John McEnroe,"3–6, 6–3, 6–7(2–7), 7–6(7–5), 6–4"
++1983,USA,John McEnroe,NZL,Chris Lewis,"6–2, 6–2, 6–2"
++1984,USA,John McEnroe,USA,Jimmy Connors,"6–1, 6–1, 6–2"
++1985,FRG,Boris Becker,USA,Kevin Curren,"6–3, 6–7(4–7), 7–6(7–3), 6–4"
++1986,FRG,Boris Becker,TCH,Ivan Lendl,"6–4, 6–3, 7–5"
++1987,AUS,Pat Cash,TCH,Ivan Lendl,"7–6(7–5), 6–2, 7–5"
++1988,SWE,Stefan Edberg,FRG,Boris Becker,"4–6, 7–6(7–2), 6–4, 6–2"
++1989,FRG,Boris Becker,SWE,Stefan Edberg,"6–0, 7–6(7–1), 6–4"
++1990,SWE,Stefan Edberg,FRG,Boris Becker,"6–2, 6–2, 3–6, 3–6, 6–4"
++1991,GER,Michael Stich,GER,Boris Becker,"6–4, 7–6(7–4), 6–4"
++1992,USA,Andre Agassi,CRO,Goran Ivanišević,"6–7(8–10), 6–4, 6–4, 1–6, 6–4"
++1993,USA,Pete Sampras,USA,Jim Courier,"7–6(7–3), 7–6(8–6), 3–6, 6–3"
++1994,USA,Pete Sampras,CRO,Goran Ivanišević,"7–6(7–2), 7–6(7–5), 6–0"
++1995,USA,Pete Sampras,GER,Boris Becker,"6–7(5–7), 6–2, 6–4, 6–2"
++1996,NED,Richard Krajicek,USA,MaliVai Washington,"6–3, 6–4, 6–3"
++1997,USA,Pete Sampras,FRA,Cédric Pioline,"6–4, 6–2, 6–4"
++1998,USA,Pete Sampras,CRO,Goran Ivanišević,"6–7(2–7), 7–6(11–9), 6–4, 3–6, 6–2"
++1999,USA,Pete Sampras,USA,Andre Agassi,"6–3, 6–4, 7–5"
++2000,USA,Pete Sampras,AUS,Patrick Rafter,"6–7(10–12), 7–6(7–5), 6–4, 6–2"
++2001,CRO,Goran Ivanišević,AUS,Patrick Rafter,"6–3, 3–6, 6–3, 2–6, 9–7"
++2002,AUS,Lleyton Hewitt,ARG,David Nalbandian,"6–1, 6–3, 6–2"
++2003,SUI,Roger Federer,AUS,Mark Philippoussis,"7–6(7–5), 6–2, 7–6(7–3)"
++2004,SUI,Roger Federer,USA,Andy Roddick,"4–6, 7–5, 7–6(7–3), 6–4"
++2005,SUI,Roger Federer,USA,Andy Roddick,"6–2, 7–6(7–2), 6–4"
++2006,SUI,Roger Federer,ESP,Rafael Nadal,"6–0, 7–6(7–5), 6–7(2–7), 6–3"
++2007,SUI,Roger Federer,ESP,Rafael Nadal,"7–6(9–7), 4–6, 7–6(7–3), 2–6, 6–2"
++2008,ESP,Rafael Nadal,SUI,Roger Federer,"6–4, 6–4, 6–7(5–7), 6–7(8–10), 9–7"
++2009,SUI,Roger Federer,USA,Andy Roddick,"5–7, 7–6(8–6), 7–6(7–5), 3–6, 16–14"
++2010,ESP,Rafael Nadal,CZE,Tomáš Berdych,"6–3, 7–5, 6–4"
++2011,SRB,Novak Djokovic,ESP,Rafael Nadal,"6–4, 6–1, 1–6, 6–3"
++2012,SUI,Roger Federer,GBR,Andy Murray,"4–6, 7–5, 6–3, 6–4"
++2013,GBR,Andy Murray,SRB,Novak Djokovic,"6–4, 7–5, 6–4"
++2014,SRB,Novak Djokovic,SUI,Roger Federer,"6–7(7–9), 6–4, 7–6(7–4), 5–7, 6–4"
++2015,SRB,Novak Djokovic,SUI,Roger Federer,"7–6(7–1), 6–7(10–12), 6–4, 6–3"
++2016,GBR,Andy Murray,CAN,Milos Raonic,"6–4, 7–6(7–3), 7–6(7–2)"
++2017,SUI,Roger Federer,CRO,Marin Čilić,"6–3, 6–1, 6–4"
++2018,SRB,Novak Djokovic,RSA,Kevin Anderson,"6–2, 6–2, 7–6(7–3)"
++2019,SRB,Novak Djokovic,SUI,Roger Federer,"7–6(7–5), 1–6, 7–6(7–4), 4–6, 13–12(7–3)"
++2021,SRB,Novak Djokovic,ITA,Matteo Berrettini,"6–7(4–7), 6–4, 6–4, 6–3"
++2022,SRB,Novak Djokovic,AUS,Nick Kyrgios,"4–6, 6–3, 6–4, 7–6(7–3)"
+\ No newline at end of file
+Index: .idea/practicals programing 2.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/practicals programing 2.iml b/.idea/practicals programing 2.iml
+new file mode 100644
+--- /dev/null	(date 1730445617032)
++++ b/.idea/practicals programing 2.iml	(date 1730445617032)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.venv" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
