@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f66b902-a726-4128-a4dc-288346ffcffb" name="Changes" comment="Implement word count functionality with formatted output">
+      <change afterPath="$PROJECT_DIR$/prac_06/guitar_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/guitars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/languages.py'.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/programming_language.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/used_cars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/emails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/hex_colours.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/kivy_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/kivy_layout.kv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/state_names.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/wimbledon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/word_occurrences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac_06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/prac_06/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +40,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/prac 5" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -52,10 +67,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.car.executor": "Run",
+    "Python.guitar_test.executor": "Run",
+    "Python.guitars.executor": "Run",
+    "Python.languages.py'.executor": "Run",
+    "Python.programming_language.executor": "Run",
+    "Python.used_cars.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/kiran/PycharmProjects/practicals programing 2/prac 5",
+    "git-widget-placeholder": "prac__06__feedback",
+    "last_opened_file_path": "C:/Users/kiran/OneDrive/Desktop/ffff",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +88,12 @@
     "ChangesTree.GroupingKeys": []
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kiran\OneDrive\Desktop\ffff" />
+      <recent name="C:\Users\kiran\PycharmProjects\practicals programing 2\prac 5" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +119,10 @@
       <workItem from="1730445895020" duration="7000" />
       <workItem from="1730445936643" duration="77000" />
       <workItem from="1730446029565" duration="1709000" />
-      <workItem from="1730685523225" duration="6125000" />
+      <workItem from="1730685523225" duration="6495000" />
+      <workItem from="1730788050833" duration="553000" />
+      <workItem from="1731196968959" duration="487000" />
+      <workItem from="1731378446125" duration="4804000" />
     </task>
     <task id="LOCAL-00001" summary="- Created a main function to store emails and associated names.&#10;- Added input prompts for email and name confirmation.&#10;- Included a helper function to extract and format names from email addresses.&#10;- Displayed stored emails and names at the end of execution.">
       <option name="closed" value="true" />
@@ -206,7 +236,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730486154723</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&quot;Added Car class with methods for fuel management and driving&quot;">
+      <option name="closed" value="true" />
+      <created>1731384400272</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731384400272</updated>
+    </task>
+    <task id="LOCAL-00016" summary="&quot;Added Guitar class with attributes for name, year, and cost, and methods for age and vintage checks&quot;">
+      <option name="closed" value="true" />
+      <created>1731384497003</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731384497003</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,8 +272,10 @@
     <MESSAGE value="Define UI layout in Kv file for Kivy app" />
     <MESSAGE value="Implement state code lookup and input validation" />
     <MESSAGE value="Add Wimbledon champions data processing" />
+    <MESSAGE value="&quot;Added Car class with methods for fuel management and driving&quot;" />
     <MESSAGE value="Implement word count functionality with formatted output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement word count functionality with formatted output" />
+    <MESSAGE value="&quot;Added Guitar class with attributes for name, year, and cost, and methods for age and vintage checks&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added Guitar class with attributes for name, year, and cost, and methods for age and vintage checks&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -239,5 +287,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/practicals_programing_2$used_cars.coverage" NAME="used_cars Coverage Results" MODIFIED="1731382160779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$guitar_test.coverage" NAME="guitar_test Coverage Results" MODIFIED="1731382868718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$languages_py_.coverage" NAME="languages.py' Coverage Results" MODIFIED="1731382630128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$programming_language.coverage" NAME="programming_language Coverage Results" MODIFIED="1731382554890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$guitars.coverage" NAME="guitars Coverage Results" MODIFIED="1731383082068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$car.coverage" NAME="car Coverage Results" MODIFIED="1731382107272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
   </component>
 </project>
