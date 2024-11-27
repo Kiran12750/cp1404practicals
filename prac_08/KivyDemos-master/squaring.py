@@ -1,33 +1,31 @@
-"""
-CP1404/CP5632 Practical
-Kivy GUI program to square a number
-Lindsay Ward, IT@JCU
-Started 13/10/2015
-"""
-
 from kivy.app import App
-from kivy.lang import Builder
-from kivy.core.window import Window
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.textinput import TextInput
+from kivy.uix.label import Label
+from kivy.uix.button import Button
 
-__author__ = 'Lindsay Ward'
-
-
-class SquareNumberApp(App):
-    """ SquareNumberApp is a Kivy App for squaring a number """
+class SquareApp(App):
     def build(self):
-        """ build the Kivy app from the kv file """
-        Window.size = (200, 100)
-        self.title = "Square Number"
-        self.root = Builder.load_file('squaring.kv')
-        return self.root
+        # Load the kv file to build the GUI
+        return BoxLayout()
 
-    def handle_calculate(self, value):
-        """ handle calculation (could be button press or other call), output result to label widget """
+    def calculate_square(self):
+        # Get the value entered in the TextInput widget
+        input_text = self.root.ids.input_number.text
+
         try:
-            result = float(value) ** 2
-            self.root.ids.output_label.text = str(result)
+            # Convert the input text to a number
+            number = float(input_text)
+
+            # Calculate the square of the number
+            squared_value = number ** 2
+
+            # Update the result label with the squared value
+            self.root.ids.result_label.text = f"Squared Value: {squared_value}"
         except ValueError:
-            pass
+            # If the input is not a valid number, show an error message
+            self.root.ids.result_label.text = "Invalid input. Please enter a valid number."
 
-
-SquareNumberApp().run()
+# Run the app
+if __name__ == "__main__":
+    SquareApp().run()

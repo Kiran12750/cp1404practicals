@@ -1,10 +1,3 @@
-"""
-Kivy Phonebook example for CP1404, IT@JCU
-- dynamically create buttons based on content of dictionary
-- demo of a 'popup' window
-Lindsay Ward
-01/05/2016
-"""
 
 from kivy.app import App
 from kivy.lang import Builder
