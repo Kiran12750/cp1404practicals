@@ -1,0 +1,25 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    # TextInput for entering miles
+    TextInput:
+        id: miles_input
+        hint_text: 'Enter miles'
+        input_filter: 'float'  # Ensure only numbers are entered
+        multiline: False
+        size_hint_y: None
+        height: '40dp'
+
+    # Button to convert miles to kilometers
+    Button:
+        text: 'Convert'
+        on_press: app.convert_miles_to_km()
+
+    # Label to display kilometers result
+    Label:
+        id: km_label
+        text: ''
+        color: (0, 0, 0, 1)  # Black color for the result
+

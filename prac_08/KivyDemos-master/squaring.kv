@@ -1,0 +1,28 @@
+BoxLayout:
+    orientation: 'horizontal'  # Changed layout to horizontal
+    padding: 10
+    spacing: 10
+
+    # TextInput for entering a number to square
+    TextInput:
+        id: input_number
+        text: ''
+        hint_text: 'Enter a number'  # Placeholder text
+
+    # Button to square the number
+    Button:
+        text: 'Square'
+        on_press: app.calculate_square()
+
+    # Label to show the squared number
+    Label:
+        id: result_label
+        text: ''  # Initially empty
+        color: (1, 0, 1, 1)  # Pink color for the label
+
+# Additional label at the bottom for instructions
+Label:
+    text: 'Enter a number and press "Square"'
+    size_hint_y: None
+    height: '40dp'
+    color: (0, 0, 0, 1)  # Black color for the instruction
