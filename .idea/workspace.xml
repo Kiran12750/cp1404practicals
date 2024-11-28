@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f66b902-a726-4128-a4dc-288346ffcffb" name="Changes" comment="Implement word count functionality with formatted output">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/practicals programing 2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
@@ -26,6 +27,24 @@
       <change beforePath="$PROJECT_DIR$/prac_07/programming_language.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_07/programming_language.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prac_07/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_07/project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prac_07/project_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_07/project_management.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/prac_06/guitar_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/guitars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/languages.py'.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/programming_language.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prac_06/used_cars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/emails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/hex_colours.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/kivy_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/kivy_layout.kv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/state_names.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/wimbledon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac 5/word_occurrences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prac_06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/prac_06/README.md" afterDir="false" />
+>>>>>>> 61eb09b809ceaf476c44d3c5175f756e9b5207ee
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +75,11 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
+<<<<<<< HEAD
     &quot;url&quot;: &quot;https://github.com/Kiran12750/cp1404practicals.git&quot;,
+=======
+    &quot;url&quot;: &quot;https://github.com/Kiran12750/cp1404practicals&quot;,
+>>>>>>> 61eb09b809ceaf476c44d3c5175f756e9b5207ee
     &quot;accountId&quot;: &quot;32cc0415-a422-4717-8303-8e2f8370b3c5&quot;
   }
 }</component>
@@ -80,8 +103,13 @@
     "Python.used_cars.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/kiran/PycharmProjects/kk/prac_09",
+=======
+    "git-widget-placeholder": "prac__06__feedback",
+    "last_opened_file_path": "C:/Users/kiran/OneDrive/Desktop/ffff",
+>>>>>>> 61eb09b809ceaf476c44d3c5175f756e9b5207ee
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,10 +123,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\kiran\PycharmProjects\kk\prac_09" />
       <recent name="C:\Users\kiran\PycharmProjects\practicals programing 2\prac 9" />
       <recent name="C:\Users\kiran\PycharmProjects\practicals programing 2\prac 5" />
       <recent name="C:\Users\kiran\OneDrive\Desktop\ffff" />
+=======
+      <recent name="C:\Users\kiran\OneDrive\Desktop\ffff" />
+      <recent name="C:\Users\kiran\PycharmProjects\practicals programing 2\prac 5" />
+>>>>>>> 61eb09b809ceaf476c44d3c5175f756e9b5207ee
     </key>
   </component>
   <component name="SharedIndexes">
@@ -296,6 +329,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/kk$popup_demo.coverage" NAME="popup_demo Coverage Results" MODIFIED="1732733118102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_08/KivyDemos-master" />
     <SUITE FILE_PATH="coverage/kk$box_layout_demo.coverage" NAME="box_layout_demo Coverage Results" MODIFIED="1732733149093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_08/KivyDemos-master" />
     <SUITE FILE_PATH="coverage/kk$taxi_simulator.coverage" NAME="taxi_simulator Coverage Results" MODIFIED="1732769389523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_09" />
@@ -316,6 +350,12 @@
     <SUITE FILE_PATH="coverage/kk$silver_service_taxi.coverage" NAME="silver_service_taxi Coverage Results" MODIFIED="1732768779585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_09" />
     <SUITE FILE_PATH="coverage/kk$taxi_test.coverage" NAME="taxi_test Coverage Results" MODIFIED="1732769341536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_09" />
     <SUITE FILE_PATH="coverage/kk$trees.coverage" NAME="trees Coverage Results" MODIFIED="1732769600429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_09" />
+=======
+    <SUITE FILE_PATH="coverage/practicals_programing_2$used_cars.coverage" NAME="used_cars Coverage Results" MODIFIED="1731382160779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$guitar_test.coverage" NAME="guitar_test Coverage Results" MODIFIED="1731382868718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$languages_py_.coverage" NAME="languages.py' Coverage Results" MODIFIED="1731382630128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+    <SUITE FILE_PATH="coverage/practicals_programing_2$programming_language.coverage" NAME="programming_language Coverage Results" MODIFIED="1731382554890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
+>>>>>>> 61eb09b809ceaf476c44d3c5175f756e9b5207ee
     <SUITE FILE_PATH="coverage/practicals_programing_2$guitars.coverage" NAME="guitars Coverage Results" MODIFIED="1731383082068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
     <SUITE FILE_PATH="coverage/practicals_programing_2$car.coverage" NAME="car Coverage Results" MODIFIED="1731382107272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prac_06" />
   </component>
